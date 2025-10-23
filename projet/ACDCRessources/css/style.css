@@ -1,0 +1,81 @@
+@font-face{
+    font-family: "hardrock";
+    src: url('../fonts/TheDark.ttf');
+}
+@font-face {
+    font-family: "lire";
+    src: url('../fonts/rocknroll_typo_crazy.ttf');
+
+}
+
+body{
+    background: linear-gradient(
+        120deg,
+        
+        red 40%,
+        black 40% 60%,
+        red 80% 100%,
+        black 80% 100%
+    );
+}
+body > nav > a{
+    cursor: pointer;
+   
+}
+
+::placeholder{
+    font-family: 'lire';
+    font-size: larger;
+    color: red;
+}
+
+td:hover{
+    background-color: rgb(62, 62, 62);
+}
+
+
+
+.album{
+    
+    width: 250px;
+    background-color: white;
+    
+}
+
+.carousel-item > img{
+    border-radius: 20px !important;
+}
+
+.com{
+    height: 100px;
+}
+
+
+.equal-img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.font-lire{
+    font-family:'Times New Roman' !important;
+}
+
+.font-rock{
+    font-family: 'hardrock' !important;
+}
+
+.link:hover{
+    color: rgb(175, 175, 175) !important; 
+}
+
+.msg{
+
+    resize: both;
+}
+
+.table > thead{
+    border-bottom: 3x solid red;
+}
+
+

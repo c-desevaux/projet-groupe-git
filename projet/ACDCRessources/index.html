@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AC/DC</title>
+</head>
+
+<body class="bg-danger">
+  
+    <!------------------------------------ NAVBAR ---------------------------------------->
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand font-rock" href="#">AC<i class="fa-solid fa-bolt-lightning text-danger"></i>DC</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarContent" class="collapse navbar-collapse">
+                <div class="navbar-nav w-100 d-flex justify-content-around ">
+                    <a class="navbar-brand text-uppercase text-danger font-rock link" href="#">Accueil</a>
+                    <a class="navbar-brand text-uppercase text-danger font-rock link" href="#membres">Membres</a>
+                    <a class="navbar-brand text-uppercase text-danger font-rock link" href="#discographie">Discographie</a>
+                    <a class="navbar-brand text-uppercase text-danger font-rock link" href="#concerts">Agenda des concerts</a>
+                    <a class="navbar-brand text-uppercase text-danger font-rock link" href="#contact">Contact</a>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </nav>
+
+  <!------------------------------------ CAROUSEL ---------------------------------------->
+   
+  <div class="container my-4 pt-5">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">    
+        <!--LES BOUTONS-->
+         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <!--LE CONTENU-->
+        <div class="carousel-inner w-75 mx-auto" >
+            <div class="carousel-item active" data-bd-interval="3000">
+                <img src="img/ac-dc-1.png" class="d-block w-100" alt="ROOOOOOCK n ROLL">
+            </div>
+            <div class="carousel-item" data-bd-interval="3000">
+                <img src="img/ac-dc-2.png" class="d-block w-100" alt="ACDC2">
+            </div>
+            <div class="carousel-item" data-bd-interval="3000">
+                <img src="img/ac-dc-3.png" class="d-block w-100" alt="ACDC3">
+            </div>
+        </div>
+        
+        
+        <!--INDICATEUR EN BAS DE PAGE-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+  </div>
+    
+
+    <!-------------------------------------MEMBRES-------------------------------------->
+    
+    <div id="membres" class="d-flex flex-column justify-content-center align-items-center">
+
+        <div class="font-rock text-white m-3">AC<i class="fa-solid fa-bolt-lightning text-danger"></i>DC -- Les Membres du Groupe --</div>
+
+        <div class="container-fluid d-flex flex-wrap justify-content-around w-10">
+            <figure id="Brian" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="img/brian-johnson.png" class="figure-img img-fluid equal-img border border-5 border-white">
+                <div class="figure-caption text-white"> Johnson (Chant)</div>
+            </figure>
+            <figure id="Angus" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="img/angus-young.png" class="figure-img img-fluid equal-img border border-5 border-white">
+                <div class="figure-caption text-white">Angus Young (Guitare Solo)</div>
+            </figure>
+            <figure id="Steve" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="img/steve-young.png" class="figure-img img-fluid equal-img border border-5 border-white">
+                <div class="figure-caption text-white">Steve Young (Guitare)</div>
+            </figure>
+            <figure id="Cliff" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="img/cliff-williams.png" class="figure-img img-fluid equal-img border border-5 border-white">
+                <div class="figure-caption text-white">Cliff Williams (Basse)</div>
+            </figure>
+            <figure id="Chris" class="d-flex flex-column justify-content-center align-items-center">
+                <img src="img/chris-slade.png" class="figure-img img-fluid equal-img border border-5 border-white">
+                <div class="figure-caption text-white">Chris Slade (Batterie)</div>
+            </figure>
+        </div>
+        
+    </div>
+    
+    <!-------------------------------------DISCOGRAPHIE-------------------------------------->
+
+    <div id="discographie" class="d-flex flex-column align-items-center justify-content-center">
+        <div class="font-rock text-white m-3">
+            AC<i class="fa-solid fa-bolt-lightning text-danger"></i>DC -- Discographie -- </div>
+            <div class="d-flex flex-wrap justify-content-around">
+
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/High-voltage-1975.jpg" alt="high-voltage">
+                        <div class="text-danger text-center fw-bold">1975 : High Voltage</div>
+                    </div>
+                    <div class=" px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                        
+                    
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Highway-to-hell-1979.jpg" alt="highway-to-hell">
+                        <div class="text-danger text-center fw-bold">1979 : Highway to Hell</div>
+                    </div>
+                    <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.
+                        </div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                        
+                    
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Back-in-black-1980.jpg" alt="back-in-black">
+                        <div class="text-danger text-center fw-bold">1980 : Back in Black</div>
+                    </div>
+                      <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                      </div>
+                        
+                 
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Who-made-who-1986.jpg" alt="who-made-who">
+                        <div class="text-danger text-center fw-bold">1986 : Who made Who</div>
+                    </div>
+                    <div>
+                        <div class="px-3 mx-2">
+                            <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                            <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                        </div>
+                    </div>
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Blow-up-your-video-1988.jpg" alt="blow-up">
+                        <div class="text-danger text-center fw-bold">1988 : Blow up your Video</div>
+                    </div>
+                    
+                    <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Razor-edge-1990.jpg" alt="razor-edge-1990">
+                        <div class="text-danger text-center fw-bold">1990 : Razor's Edge</div>
+                    </div>
+                    
+                    <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Ballbreaker-1995.jpg" alt="ballbreaker">
+                        <div class="text-danger text-center fw-bold">1995 : BallBreaker</div>
+                    </div>
+                    
+                    <div class="px-3 mx-2">
+            
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Stiff-upper-lip-2000.jpg" alt="stiff-upper-lip">
+                        <div class="text-danger text-center fw-bold">2000 : Stiff Uper Lip</div>
+                    </div>
+                    
+                    <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                </figure>
+                <figure class="album rounded-2 mb-1">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img class="equal-img mt-1 mb-2" src="img/Discographie/Black-ice-2008.jpg" alt="black-ice">
+                        <div class="text-danger text-center fw-bold">2008 : Black Ice</div>
+                    </div>
+                    
+                    <div class="px-3 mx-2">
+                        <div class="mb-2">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Pariatur sed vel assumenda aliauid Tuca: kepellat.</div>
+                        <button class="btn btn-danger font-lire fw-bold fs-5 mb-3">Lire plus ...</button>
+                    </div>
+                </figure>
+            </div>
+    </div>
+    <!-------------------------------------DATES CONCERTS-------------------------------------->
+
+<div id="concerts" class="d-flex justify-content-center">
+
+
+    <div class="font-rock text-white m-3">
+            AC<i class="fa-solid fa-bolt-lightning text-danger">
+            </i>DC -- Les Dates des Concerts --
+    </div>
+</div>
+
+<div class="d-flex justify-content-center mx-5">
+    <table class="table table-dark">
+        <thead class="border-0 border-bottom border-1 border-danger">
+            <tr class="text-danger">
+                <th class="text-danger">Date</th>
+                <th class="text-danger">Heure</th>
+                <th class="text-danger">Salle</th>
+                <th class="text-danger">Ville</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08/06/2000</td>
+                <td>21:00</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+            </tr>
+            <tr>
+                <td>12/05/2002</td>
+                <td>21:00</td>
+                <td>Esplanade</td>
+                <td>Singapour</td>
+            </tr>
+            <tr>
+                <td>18/09/2009</td>
+                <td>20:30</td>
+                <td>Opera</td>
+                <td>Sydney</td>
+            </tr>
+            <tr>
+                <td>12/09/2021</td>
+                <td>20:30</td>
+                <td>Massey Hall</td>
+                <td>Toronto</td>
+            </tr>
+            <tr>
+                <td>12/09/2022</td>
+                <td>20:30</td>
+                <td>Madison Square Garden</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>08/06/2023</td>
+                <td>21:30</td>
+                <td>Stade de France</td>
+                <td>Paris</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    
+
+    <!-------------------------------------CONTACT-------------------------------------->
+    <div id="contact" class="d-flex justify-content-center">
+        <div class="font-rock text-white m-3">
+            AC<i class="fa-solid fa-bolt-lightning text-danger">
+            </i>DC -- Contact --
+        </div>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        
+        <form method="POST" class="form-label form-group text-danger">
+            <div class="d-flex flex-column">
+                <div class="d-flex">
+                    <label for="nom"></label>
+                    <input id="nom" type="text" placeholder="Nom" class="rounded-1 m-1 mx-2">
+                    <label for="prenom"></label>
+                    <input id="prenom" type="text" placeholder="Prenom" class="rounded-1 m-1 mx-2">
+                </div>
+                
+                <label for="email"></label>
+                <input id="email" type="text" placeholder="Email" class="rounded-1 m-1">
+                <textarea id="msg" type="text-area" placeholder="Votre message" class="rounded-1 m-1 msg mb-3 com"></textarea>
+             </div> 
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-danger font-lire fw-bold fs-5 mx-1">Envoyer</button>
+                <button type="reset"class="btn btn-danger font-lire fw-bold fs-5 mx-1">Annuler</button>
+            </div>
+        </form>
+        
+        
+        
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/8a32face71.js" crossorigin="anonymous"></script>
+</html>

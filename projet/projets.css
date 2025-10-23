@@ -1,7 +1,9 @@
 
 
 
-
+.blabla > p{
+    text-align: justify;
+}
 
 .memory > img{
     max-width: 300px;

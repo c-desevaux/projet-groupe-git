@@ -1,0 +1,56 @@
+/* --- QUESTIONNAIRE --- */
+.quiz-section {
+    background: #0966c3b9;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.quiz-section .section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: #333;
+}
+
+.quiz-question {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-question p {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.quiz-question label {
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.quiz-result {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #667eea;
+    display: none;
+}
+
+.quiz-result.passionne {
+    color: #192f1d;
+}
+
+.quiz-result.moyen {
+    color: #ffc107;
+}
+
+.quiz-result.faible {
+    color: #dc3545;
+}

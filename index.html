@@ -17,6 +17,56 @@
 
 
 
+        <!-- QUESTIONNAIRE -->
+        <section class="quiz-section">
+            <div class="container">
+                <h2 class="section-title">Partagez-vous, vous aussi, ma passion du développement web ?</h2>
+
+                <form id="quizForm">
+                    <!-- Question 1 -->
+                    <div class="quiz-question">
+                        <p>1️⃣ Quand vous voyez une erreur dans votre code, vous…</p>
+                        <label><input type="radio" name="q1" value="2"> Vous paniquez un peu, mais vous cherchez la
+                            solution.</label><br>
+                        <label><input type="radio" name="q1" value="3"> Vous adorez déboguer, c’est un défi
+                            amusant.</label><br>
+                        <label><input type="radio" name="q1" value="1"> Vous laissez tomber, c’est trop
+                            compliqué.</label>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="quiz-question">
+                        <p><br>2️⃣ Vous préférez…</p>
+                        <label><input type="radio" name="q2" value="3"> Passer des heures à tester des animations
+                            CSS.</label><br>
+                        <label><input type="radio" name="q2" value="2"> Travailler sur des projets concrets et
+                            pratiques.</label><br>
+                        <label><input type="radio" name="q2" value="1"> Regarder les autres coder sur YouTube.</label>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="quiz-question">
+                        <p><br>3️⃣ Quand vous découvrez une nouvelle technologie, vous…</p>
+                        <label><input type="radio" name="q3" value="3"> La testez tout de suite, même par
+                            curiosité.</label><br>
+                        <label><input type="radio" name="q3" value="2"> La notez pour plus tard.</label><br>
+                        <label><input type="radio" name="q3" value="1"> Vous préférez rester avec ce que vous connaissez
+                            déjà.</label>
+                    </div>
+
+                    <!-- Bouton -->
+                    <div class="text-center">
+                        <button type="button" class="btn btn-custom" onclick="calculateResult()">Cliquez ici pour savoir
+                            si vous etes un lover du développement ou si vous devez vite quitter cette formation
+                            !</button>
+                    </div>
+                </form>
+
+                <!-- Résultat -->
+                <div id="quizResult" class="quiz-result"></div>
+            </div>
+        </section>
+
         <script src="script.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

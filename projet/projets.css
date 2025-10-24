@@ -17,6 +17,13 @@ p{
   
 }
 
+.main{
+    border-radius: 20px;
+    background-color: rgb(249, 249, 249);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 30px;
+}
 
 .memory > img{
     width: 550px;
